@@ -1,0 +1,37 @@
+{
+  "sistemi": [
+    {
+      "id": "vast-grimm",
+      "nome": "Vast Grimm",
+      "descrizione": "Horror fantascientifico nel vuoto cosmico",
+      "banner": "assets/vg.webp",
+      "statistiche": [
+        {
+          "id": "agi",
+          "nome": "Agilità",
+          "abbr": "Agilità",
+          "descrizione": "Difendersi, bilanciarsi, fluttuare, nuotare, fuggire"
+        },
+        {
+          "id": "pre",
+          "nome": "Presenza",
+          "abbr": "Presenza",
+          "descrizione": "Percepire, mirare, affascinare, usare la Neuromanzia, Hackerare sistemi, usare tecnologia aliena, pilotare"
+        },
+        {
+          "id": "for",
+          "nome": "Forza",
+          "abbr": "Forza",
+          "descrizione": "Schiacciare, sollevare, colpire, lottare"
+        },
+        {
+          "id": "ten",
+          "nome": "Costituzione",
+          "abbr": "Costituzione",
+          "descrizione": "Resistere a veleni, freddo, calore, sopravvivere alle cadute"
+        }
+      ],
+      "hp": { "dado": 6, "statBonus": "ten" }
+    }
+  ]
+}

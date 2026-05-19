@@ -1,0 +1,627 @@
+{
+  "vast-grimm": {
+    "nomi_callsign": [
+      "Voss", "Malen", "Nith", "Bryn", "Stok", "Vrask", "Dael", "Hex",
+      "Geln", "Vren", "Orn", "Melk", "Thresh", "Sult", "Kaven", "Morn",
+      "Rusk", "Pale", "Drek", "Sorn", "Hael", "Tyke", "Brix", "Calve",
+      "Cinere", "Scheggia", "Tarlo", "Moncone", "Nervo", "Brace",
+      "Grimpa", "Scarto", "Uncino", "Pece", "Ruggine", "Stoppa",
+      "Sfracello", "Bolgia", "Tossico", "Scorza", "Crampo", "Lenza",
+      "Fanghiglia", "Straccio", "Ticchio", "Pustola", "Nodulo", "Sfrido",
+      "Cicca", "Lurido", "Tromba", "Sputo", "Sgorbio", "Fiele",
+      "Zoppo", "Bavoso", "Rabbia", "Croce", "Morsa", "Scoria",
+      "Flagello", "Relitto", "Rottame", "Ferraglia", "Scalpore", "Vuoto"
+    ],
+    "conseguenze": [
+      "Testa calda",
+      "Ottuso",
+      "Brutale",
+      "Apatico",
+      "Spietato",
+      "Ansioso",
+      "Superficiale",
+      "Distratto",
+      "Violento",
+      "Narcisista",
+      "Subdolo",
+      "Crudele",
+      "Stravagante",
+      "Spericolato",
+      "Irascibile",
+      "Nervoso",
+      "Letargico",
+      "Ribelle",
+      "Amareggiato"
+    ],
+    "tratti_fisici": [
+      "Ustione / Guscio annerito.",
+      "Naso gocciolante di muco verde neon / Emetti scintille dagli orifizi.",
+      "Una mano assiderata e nera / Arrugginito e cigolante.",
+      "Hai perso la mascella, staccata da un detonatore termico.",
+      "Ti manca il dito medio: hai insultato la persona sbagliata.",
+      "Occhi fuori dalle orbite: hai uno sguardo intenso.",
+      "Niente sopracciglia: te le strappi e te le mangi costantemente / Nessuna copertura facciale, cavi esposti come muscolatura.",
+      "Pancia incredibilmente gonfia, per il resto sei allampanato / Sei un patchwork di componenti.",
+      "Senza denti, la Polvere Stellare te li ha fatti marcire / ha ossidato la tua placca facciale.",
+      "Pus e acne costanti / Spasmi facciali e cortocircuiti ogni volta che ti colpiscono in faccia.",
+      "Artritico / Anca arrugginita, zoppichi vistosamente.",
+      "Bellosguardo: senza occhiali o visori appropriati sei inutile.",
+      "Cervello a bagno / cablaggio incrociato, sei così danneggiato che sembri ubriaco.",
+      "Ferita suppurante con flusso costante di pus / olio che esce da un taglio sul ventre.",
+      "Unghie dei piedi molto spesse incurvate sotto le dita / piedi fusi, cammini sui talloni.",
+      "Alito pestilenziale, osceno fetore ogni volta che apri bocca.",
+      "Unghie mangiucchiate / La tua verniciatura è tutta scrostata.",
+      "Pustole / Pessima idraulica: tutto ciò che porti sulla schiena ti infligge orribili sofferenze.",
+      "Ti manca un orecchio, perso per scommessa.",
+      "Niente naso, staccato di netto dai denti di una bestia / grossa ammaccatura nel mezzo della placca facciale."
+    ],
+    "tratti_personalita": [
+      "Cleptomane: tutto ciò che luccica o si può sciacallare finisce nelle tue tasche.",
+      "Pensi di sapere tutto e non lo nascondi affatto.",
+      "Non fai mai un passo indietro.",
+      "Ti soffi il naso rumorosamente: spari muco da una narice e scintille dall'altra.",
+      "Se c'è dell'alcool, sicuramente esagererai.",
+      "Credi che tutti gli insetti siano würm: li spiaccichi tutti.",
+      "Le scoregge ti divertono incredibilmente. Se qualcuno ne molla una, non riuscirai a trattenerti dal ridere.",
+      "Ti concentri solo sulle cose frivole, non ricordi mai i dettagli importanti.",
+      "Hai un'analogia per ogni situazione e la condividerai con chiunque.",
+      "Avverti un prurito costante all'interno della testa. Pensi sia un würm, l'hai chiamato Fred. Parli con Fred.",
+      "Vuoi sempre essere al comando e non accetti che gli altri ti impartiscano ordini.",
+      "Non riesci a guardare nessuno negli occhi.",
+      "Tremori. Devi tenere sempre le mani impegnate.",
+      "Sei un cazzone. Tutto ciò che dici è esagerato, in un modo o nell'altro.",
+      "Tossico di Polvere Stellare. Se c'è roba in giro, finirà nella tua riserva di ossigeno.",
+      "Paranoide: ti guardi sempre alle spalle, come se qualcuno ti stesse sempre seguendo.",
+      "Germofobia. Tutto deve essere pulito e sterilizzato.",
+      "Fame nervosa. Quando la situazione si fa tesa, mangeresti qualsiasi cosa.",
+      "Tricotillomania: quando ti riposi ti strappi ciocchi di capelli / cavi dalla testa.",
+      "Trasandato. Ti rifiuti di lavarti o pulirti, costi quel che costi."
+    ],
+    "classi": [
+      {
+        "id": "uomacchina",
+        "nome": "UOMAcchina Illuminati",
+        "descrizione": "Non appartieni ad alcun luogo, la tua casa è la battaglia, la tua famiglia LA LEGIONE. Ti hanno potenziato per la guerra, la tua umanità si è fusa con il freddo metallo, innestato nella tua carne, ma non nella tua mente. Come tutte le UOMAcchine, la tua tenaglia affilata, impiantata nel tuo organismo, ti ha salvato la vita più di una volta nelle trincee.",
+        "note_speciali": [
+          "Il tuo sistema non può downloadare Tributi. Se ci provi, farfuglierai incontrollabilmente per d6 minuti.",
+          "Se cominci con un Tributo, sarà downloadabile nel tuo sistema in un momento casuale nel vivo della battaglia.",
+          "Tira d4 sulla tabella armature."
+        ],
+        "hp": { "dado": 10, "statBonus": "ten" },
+        "crediti": { "dadi": 2, "facce": 6, "moltiplicatore": 10 },
+        "favori": { "dado": 2 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "for": { "dadi": 3, "facce": 6, "bonus":  2, "label": "In Parte Metallo" },
+          "agi": { "dadi": 3, "facce": 6, "bonus": -2, "label": "Cablato nel Cervello" },
+          "pre": { "dadi": 3, "facce": 6, "bonus": -2, "label": "Cablato nel Cervello" }
+        },
+        "attacco_classe": "Tenaglia: CD10 per attaccare, d6 danni. Tira d8: con 1-3 il nemico ottiene un attacco gratuito.",
+        "tabelle_classe": [
+          {
+            "titolo": "PRIMI RICORDI",
+            "voci": [
+              "Nelle trincee di Proxima b, brandelli di arti mutilati e frattaglie volano attorno a te.",
+              "Riverso su una barella, guardi il tuo braccio mentre viene amputato e rimpiazzato dalla tua nuova arma.",
+              "Giochi in un campo di fiori, come un bambino, quando dal cielo piovono Grimm.",
+              "Nella stiva di una nave da carico, dopo che i tuoi genitori ti hanno fatto fuggire da una colonia mineraria sulla Cintura della Disperazione.",
+              "A caccia di insetti fuori dal LORO Mausoleo.",
+              "In marcia fianco a fianco della TUA LEGIONE sulla luna ghiacciata di 66 Pegasi c."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ",
+            "voci": [
+              "LA MANO MORTA — Hai strappato un braccio meccanico da un robot e te lo sei innestato al posto del tuo arto mancante. Dalla punta delle dita, luce ultravioletta sterilizza la cancrena. Cura d6 danni, 40% di possibilità di evitare l'infezione parassitaria. Ricarica dopo riposo. 20% di possibilità che venga danneggiata in combattimento e non si possa più usare per sterilizzare.",
+              "OCCHI-BOT — Ti sono stati cavati gli occhi. Al loro posto hai un visore a raggi X. Puoi vedere nell'oscurità più assoluta e hai il 65% di possibilità di vedere tracce di calore attraverso muri e strutture.",
+              "CEREBRO-GUIDA — La tua Legione ti ha equipaggiato con hard-drive interni contenenti file di pilotaggio per ogni modello di nave. Ti occorrono d4 round per uploadare il software di un modello mai guidato. Dopodiché ottieni +4 Presenza alle prove di pilotaggio.",
+              "FACCIA DI TASER — La tua faccia è stata orribilmente sfregiata in battaglia. Uno dei tuoi occhi è stato rimpiazzato con un innesto oculare taser. Può essere usata come azione d'attacco in mischia aggiuntiva quando usi l'altra tenaglia come prima azione. CD10, 2d4 danni; quando ottieni lo stesso risultato sui due dadi danno, si inceppa. Se le usi entrambe, subisci -4 alle prove di Difesa.",
+              "CHELA RUGGINOSA — Il tuo braccio sinistro è stato trasformato in una chela cibernetica come quella di un'aragosta, ma non così carina. È impossibile ripulirla da sangue e viscere incrostate. CD10 per attaccare e difendere, d6 danni. 1 possibilità su 6 che la chela si serri completamente sul bersaglio, causando d4 danni addizionali da fratture ossee.",
+              "CYBER-MICIO — Questo micio ferale ti ha scelto come suo semi-umano. La poca carne rognosa rimasta su questa povera bestia è infestata di pulci neon. Per quanto sia a malapena vivo, è sempre in allerta anche quando dorme: +2 Presenza. Attacca con CD10 (artiglio metallico d4). Difende con CD10, PF d4."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "note": "Tira d4 sulla tabella armature.",
+          "armi_fissi": ["Tenaglia integrata (d6 danni, impianto cibernetico)"],
+          "armi_dado": null,
+          "armatura_dado": 4,
+          "salta_t2": false,
+          "salta_t3": false,
+          "extra": []
+        }
+      },
+      {
+        "id": "anima-sopravvissuta",
+        "nome": "Anima Sopravvissuta",
+        "descrizione": "Ovunque tu vada, una nuvola nera incombe sulla tua testa sporca e infestata di parassiti. Te la trascini dietro come un cane morto al guinzaglio, portando oscurità a chi ti sta accanto. Ma cosa ci puoi fare? Nelle ombre tu prosperi. Quando tutto va a rotoli, tu ci guadagni — o almeno sei l'ultimo a morire.",
+        "note_speciali": [],
+        "hp": { "dado": 6, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 6, "moltiplicatore": 10 },
+        "favori": { "dado": 2 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "for": { "dadi": 3, "facce": 6, "bonus": -2, "label": "Macilento" }
+        },        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "SOLITUDINE TRAUMATICA",
+            "voci": [
+              "Hai guardato la tua nave venire divorata dal Grimm mentre ti nascondevi.",
+              "Abbandonato sulla Discarica di Khallar, costretto a nutrirti degli scarti altrui.",
+              "Criogenizzato, ti sei risvegliato affamato e solo nel Vuoto Amaro.",
+              "Fuggito da una cella di isolamento su una luna prigione dopo che i suoi abitanti erano stati annientati.",
+              "Hai vissuto 5 anni come clandestino su una nave di predoni. Non ti hanno mai trovato.",
+              "Tormentato e bullizzato dagli abitanti del tuo insediamento. Come sono rimasti sorpresi quando hai fatto entrare il Grimm..."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ",
+            "voci": [
+              "VAMPIRO ENERGETICO — Il dolore e la miseria ti alimentano mentre ti nutri dell'energia emotiva altrui. Quando un membro della TUA LEGIONE viene ucciso, ottieni 1 Favore aggiuntivo. Se più della metà della LEGIONE era lì a testimoniare ed è stato particolarmente brutale, ottieni 2.",
+              "BASSE ASPETTATIVE — Nessuno si aspetta molto da te. La maggior parte assume che tu ti rintani in un angolo se minacciato. Il tuo primo attacco è sempre a sorpresa con CD10. Se riesci con 5 o più, raddoppia i danni.",
+              "ULTIMO A MORIRE — Sei debole e rachitico. Tutti ti guardano e vedono una minaccia pari a zero, ridendo già solo all'idea della tua esistenza. Quando combatti insieme alla TUA LEGIONE, sarai sempre l'ultimo a essere attaccato. Sei sempre uno spreco di tempo.",
+              "PASSO OVUNQUE — Sei sempre riuscito a entrare e uscire da qualsiasi posto, spesso scassinando serrature e borseggiando. Puoi fare entrambe le cose con Agilità CD8. Hai un antico set di grimaldelli e un keycard decriptato.",
+              "FUGA INEVITABILE — Meglio di chiunque altro, sai trovare riparo dal pericolo. Quando ti nascondi durante il combattimento, ci vuole una prova di Presenza CD14 per notarti.",
+              "STOMACO RAGGRINZITO — Avendo trascorso gran parte della tua vita con poco o nessun cibo, il tuo stomaco si è adattato alla malnutrizione. Senza cibo, puoi recuperare d4 PF per tre giorni. Al settimo giorno inizi a morire di fame lentamente, perdendo d2 PF al giorno."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 6,
+          "armatura_dado": 2,
+          "salta_t2": false,
+          "salta_t3": false,
+          "tributi": [],
+          "extra": []
+        }
+      },
+      {
+        "id": "tecno-maniaco",
+        "nome": "Tecno Maniaco Bruciato",
+        "descrizione": "Hai trovato una roccia e hai deciso di restarci. Era tranquilla, permetteva alla tua mente di esaminare e analizzare i Tributi che avevi acquisito, arrivando a una più profonda conoscenza della Neuromanzia. Poi, è arrivato il Grimm e, in qualche modo, gli sei sfuggito. La solitudine ti ha spinto ad unirti a quella che ora è la TUA LEGIONE. Il loro noioso chiacchiericcio ti fa scoppiare la testa.",
+        "note_speciali": [],
+        "hp": { "dado": 4, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 6, "moltiplicatore": 10 },
+        "favori": { "dado": 4 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "pre": { "dadi": 3, "facce": 6, "bonus":  2, "label": "Visionario" },
+          "for": { "dadi": 3, "facce": 6, "bonus": -2, "label": "Gracile" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "ESORDI ARCANI",
+            "voci": [
+              "Ti sei svegliato su Proxima b vomitando una grossa creatura lumacoide ancora viva.",
+              "Ti sei ritrovato in un corpo sconosciuto, impugnando una lama sporca di sangue; di fronte a te, sul pavimento, un cadavere dentro a un pentacolo.",
+              "Quando il Grimm ti ha infettato, il tuo corpo l'ha rigettato provocandoti un'amnesia.",
+              "Sei nato cieco; hai ritrovato la vista fissando uno schermo di comunicazione su di un'astronave per 38 ore di fila.",
+              "Tua madre è morta partorendoti dentro una biblioteca esoterica su un pianeta solitario.",
+              "Eri come tutti gli altri fino a che non hai assistito ad eventi inspiegabili sulle Lune dei Morti. Li hai trovati affascinanti."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ",
+            "voci": [
+              "DRIVE DELLA CALMA CONTEMPLAZIONE — Grazie a una profonda conoscenza dei Tributi puoi downloadare casualmente d2 Tributi addizionali dal Netwürk al giorno. Non sono iscritti nel tuo dispositivo e si auto-cancellano dopo 1 uso al giorno.",
+              "SIGNORE DEL MAINFRAME — Puoi comunicare con i sistemi interni delle astronavi. I sistemi eseguiranno comandi specifici con una prova di Presenza CD10. Una prova fallita ti chiuderà fuori dal sistema per d8 round.",
+              "CYBER PIPISTRELLO — Hai un piccolo ratto alato cibernetico (PF d4). Puoi vedere attraverso i suoi occhi e sentire con le sue orecchie usando un piccolo tecno-tablet.",
+              "DISSUONANTE — Hai costruito un apparecchio che risucchia ogni suono da uno spazio chiuso per d6 round. Ha una batteria integrata utilizzabile solo una volta prima di ricaricarlo.",
+              "DIGITAZIONE — Se c'è una console connessa su qualsiasi frequenza del Netwürk, puoi navigare nel segnale per trovare l'informazione che cerchi con una prova di Presenza CD10. Se ottieni 1, il Grimm intercetterà la tua posizione.",
+              "ONNIBUSSOLA — Coloro che vagabondano non si perdono mai. Dentro di te, sai sempre qual è la via e come trovarla. Prova di Presenza CD8."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 4,
+          "armatura_dado": 2,
+          "salta_t2": true,
+          "salta_t3": false,
+          "tributi": [{ "tipo": "casuale", "count": 2 }],
+          "extra": []
+        }
+      },
+      {
+        "id": "biochimico-degenere",
+        "nome": "Biochimico Degenere",
+        "descrizione": "Sei stato infettato dal parassita mentre cercavi un modo per annientarlo, una volta per tutte. La prospettiva della tua imminente trasformazione e morte ti permette di guardare alla vita in modo differente. Sfrutti questa prospettiva per aiutare l'umanità o ti getti semplicemente in un abisso di autocommiserazione?",
+        "note_speciali": [
+          "Hai dedicato la tua gioventù, e buona parte della tua vita, alla ricerca del modo per neutralizzare il Grimm. Non hai trovato un cazzo, ma continui a cercare.",
+          "Ricevi due creazioni casuali (d8) al giorno con un totale di d4 dosi. Alla fine di ogni giorno il database del tuo laboratorio improvvisato cancella i file e devi ricominciare da capo."
+        ],
+        "hp": { "dado": 6, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 6, "moltiplicatore": 10 },
+        "favori": { "dado": 2 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "pre": { "dadi": 3, "facce": 6, "bonus":  2, "label": "Istruito" },
+          "for": { "dadi": 3, "facce": 6, "bonus": -2, "label": "Accademico Mingherlino" },
+          "ten": { "dadi": 3, "facce": 6, "bonus":  1, "label": "Forza d'Animo" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "DROGATO DI SCIENZA (d6)",
+            "voci": [
+              "Eri un medico di bordo quando giunse il Grimm. Tutti morirono, tranne te.",
+              "La tua famelica dipendenza ti ha condotto a una vita di scienza, così da saziare il tuo infinito appetito di Farma.",
+              "Eri sempre il primo della classe; i tuoi compagni e i professori ti odiavano.",
+              "Provieni da una famiglia di ristoratori: sei l'unico che è riuscito ad andarsene.",
+              "Nato/a in un covo di drogati, sulla Criosfera Predonica; i tuoi genitori erano dei ladri e dei tossici.",
+              "Il tuo villaggio corporativo ti ha esiliato dopo che è stata scoperta la tua infezione. Ormai era troppo tardi… per loro."
+            ]
+          }
+        ],
+        "creazioni": {
+          "count_giornaliero": 2,
+          "dosi_dado": 4,
+          "voci": [
+            "NANITE DANCE PARTY — Prova di Costituzione CD12 o il bersaglio avra' tremori incontrollabili per d6 round.",
+            "NEBBIA DEL PIACERE — Prova di Presenza CD12 o sprofonda in un mondo fantastico mentale per d4 round. Recupera d4 PF.",
+            "LA SPERANZA RESISTE — L'iniezione chimica ti dà una seconda possibilità di resistere al Grimm se hai fallito un tiro GP.",
+            "SCORREGGIA ESPLOSIVA — I naniti accedono al tuo microbioma intestinale. Scorregge incontrollabili per d4 round. Creature entro 1,5m: Costituzione CD12 o attacco e difesa a -2 per d4 round.",
+            "FUNZIONA — I naniti riparano i danni. Recupera d6 PF ed elimina infezioni normali e avvelenamento da radiazioni.",
+            "SESTO SENSO — Fluido spinale sintetico: +2 Presenza per un giorno. Iniezione nella spina dorsale. 1 su 8: paralisi per 1 giorno.",
+            "GIN E SUCCO — Effetto alcolico potente. +1 Forza e Costituzione. -2 Presenza e Agilità.",
+            "RISVEGLIA I MORTI — Inverte la morte se somministrata entro 1 minuto. Tira d6: 1 = i naniti dissolvono il cadavere; 5–6 = condizione Morto → Distrutto. Una sola volta per individuo."
+          ]
+        },
+        "equipaggiamento_override": {
+          "armi_fissi": ["Pistola Ipodermica (portata 6 metri, 8 dosi)", "Laboratorio chimico/nanotecnico portatile"],
+          "armi_dado": null,
+          "armatura_dado": 2,
+          "salta_t2": false,
+          "salta_t3": false,
+          "tributi": [],
+          "extra": []
+        }
+      },
+      {
+        "id": "infido-mercenario",
+        "nome": "Infido Mercenario",
+        "descrizione": "Sei un vero bastardo. In pratica, pensi solo a te stesso e chiunque si opponga a te avrà ciò che si merita — a meno che non ti offra una generosa manciata di crediti, o ti permetta di sfuggire al Grimm. \"Contano i Soldi, non le Parole\" è la tua filosofia di vita. Ne sai qualcosa di viaggi spaziali e, probabilmente, sei in grado di guidare una nave fuori da questo inferno in terra.",
+        "note_speciali": [
+          "+2 Presenza per pilotare."
+        ],
+        "hp": { "dado": 8, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 6, "moltiplicatore": 10 },
+        "favori": { "dado": 4 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "ten": { "dadi": 3, "facce": 6, "bonus":  2, "label": "Un Vero Duro" },
+          "agi": { "dadi": 3, "facce": 6, "bonus": -1, "label": "Goffo" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "SOLDATO IMPREVEDIBILE (d6)",
+            "voci": [
+              "Precedentemente eri parte dell'esercito della tua legione; hai disertato come un codardo quando il Grimm si è abbattuto sul tuo insediamento, uccidendo quasi tutti. Chi è sopravvissuto sa cos'hai fatto.",
+              "Una figura eroica mossa dall'avidità, discendente da una dinastia di professionisti della sicurezza privata.",
+              "Cresciuto/a nelle arene della Discarica di Khallar, sei sopravvissuto/a respirando, mangiando e sognando violenza. Tanta violenza. Sei un campione ben noto. Uno di quelli violenti.",
+              "Un tempo un promettente ufficiale, ma la tua mancanza di giudizio in uno scontro con un'altra Legione ti è costata tutto. Si è trattato di un fraintendimento.",
+              "Carne da cannone. Un semplice fante. Esegui solo gli ordini.",
+              "Sfortunato/a in amore: ti struggi per qualcuno che vede oltre le apparenze."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ (d6)",
+            "voci": [
+              "EROISMO RAZZIATO — Sopra i tuoi abiti da mercenario sfoggi le mostrine delle leggendarie campagne in cui hai combattuto. I nemici che falliscono una prova di Presenza CD10 perdono sempre l'iniziativa. I tuoi nemici sopravvissuti a quelle campagne cercano costantemente di ucciderti.",
+              "SIGARO SCHWARZE — Questo sigaro elettronico non si consuma mai e ha il sapore di un buon cubano. Una volta al giorno può essere gettato in faccia a un nemico. Se l'attacco riesce, il nemico è accecato per d4 round.",
+              "ERNESTO SPARALESTO — Hai un innesto meccanico nelle braccia che ti permette di sparare da due pistole a energia (tira due volte per attaccare, d6 danni per ognuna). Puoi farlo solo una volta per combattimento e cominci sempre per primo nell'iniziativa della tua legione.",
+              "GIOCARE SPORCO — Non disdegni i colpi sotto la cintura, gli attacchi alle spalle e i tradimenti. +2 ai tiri d'attacco quando puoi mirare a parti vulnerabili dei nemici. +3 se sai dimostrare al GM che il colpo è davvero subdolo.",
+              "TIRAPUGNI — Hai un impianto chirurgico tirapugni sotto le nocche. d4 danni quando combatti a mani nude.",
+              "RABBIA DELLA LEGIONE — Puoi andare in berserk 2 volte al giorno: doppi attacchi a +3 e Difesa a -2 per 2 round. Dopodiché sei esausto/a e devi effettuare un riposo lungo."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 10,
+          "armatura_dado": 4,
+          "salta_t2": false,
+          "salta_t3": false,
+          "tributi": [],
+          "extra": []
+        }
+      },
+      {
+        "id": "emo-bot",
+        "nome": "Emo|Bot",
+        "descrizione": "Tu senti. Voglio dire, tu puoi davvero sentire tutte le emozioni. Potresti perfino avere un'anima se il Grimm non recidesse ogni necessità di averne una. Il tuo corpo e la tua mente meccanici sono immuni ad infezioni e infestazioni. Ma le infezioni non sono l'unico modo per tirare le cuoia in questo 'verso. Odi il Grimm. Il tuo cuore meccanico si spezza mentre lo osservi portare via tutte le persone che condividono le tue emozioni. LORO devono andarsene. Userai tutte le tue conoscenze tecnologiche per piantare un seme di speranza che possa un giorno germogliare. O anche solo per tracciare un sentiero per lasciare questo sistema solare di merda.",
+        "note_speciali": [
+          "Immune a infezioni e infestazioni."
+        ],
+        "hp": { "dado": 8, "statBonus": "ten" },
+        "crediti": { "dadi": 0, "facce": 0, "moltiplicatore": 0 },
+        "favori": { "dado": 4 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "ten": { "dadi": 3, "facce": 6, "bonus":  2, "label": "Fatto di Metallo" },
+          "pre": { "dadi": 3, "facce": 6, "bonus": -1, "label": "Emotivamente Acerbo" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "BOT SENZIENTE (d6)",
+            "voci": [
+              "Ex bot per le comunicazioni in una struttura medica: hai una conoscenza innata delle tecnologie di guarigione a nanobyte.",
+              "Un Mech militare: lo sviluppo delle emozioni ha creato un paradosso nel tuo cortex sintetico. Era giusto uccidere altri umani con forza letale devastante? O era davvero, davvero divertente?",
+              "Ex bot di servizio personale, abituato a svolgere compiti quotidiani: cucinare, pulire, dare lezioni, tenere la contabilità. Nel frattempo hai studiato segretamente come diventare un assassino. Vuoi davvero uccidere qualcosa — ma in silenzio.",
+              "Sei un drone. Solo un drone per le consegne. Ti chiedi se qualcuno potrebbe equipaggiarti con delle armi per consegnare pacchi di livello superiore. Le tue emozioni sono ROVENTI.",
+              "Come bot scientifico impegnato nella ricerca di cure contro l'infestazione, hai sviluppato una certa piccola fascinazione e attaccamento per quei letali würm. Non possono farti del male. Perché dovresti fargliene tu?",
+              "Sei solo. Solo nel 'verso. Per quanto ne sai non esistono altri come te, ma cerchi comunque — sempre alla ricerca di altri tuoi simili. Sei il bot triste."
+            ]
+          },
+          {
+            "titolo": "SKILLZ (d6)",
+            "voci": [
+              "PELLE D'ACCIAIO — Il tuo esoscheletro metallico funziona come un'armatura di livello 3 senza penalità all'Agilità.",
+              "OCCHIO ELETTRONICO — Il tuo occhio è una telecamera di sorveglianza che vaga continuamente dalla cima della tua testa o del tuo corpo. +2 Presenza contro qualsiasi prova visiva. Registra fino a 1 settimana di filmati prima di sovrascrivere i dati.",
+              "VIENI QUI — Uno dei tuoi arti contiene un potente magnete. 2 volte al giorno puoi attivarlo e strappare un oggetto metallico a un avversario, un alleato o da una superficie non ancorata. Prova di Forza CD10.",
+              "UH-OH — Hai un meccanismo di autodistruzione che detona automaticamente quando arrivi a -1 PF. Devi comunicare al GM all'inizio di ogni giorno se è attivo o no. Se è disattivo puoi anche innescarlo in qualsiasi momento tranne quando sei a 0 PF. Un risultato di 4 sulla tabella A Terra ti uccide comunque, ma non esplodi. Il meccanismo è cablato e non puoi cambiare idea una volta innescato fino al giorno successivo. Raggio 1,5 m, 2d6 danni da esplosione. Prova di Agilità CD12 per dimezzare i danni.",
+              "SUZIONE DATI — Puoi interfacciarti con quasi qualsiasi computer purché abbia alimentazione. Prova di Presenza CD9. Una volta interfacciato, tutti i file tranne i più segreti sono accessibili e modificabili. I file altamente criptati richiedono una prova di Presenza CD17.",
+              "DEALER DI VELOCITÀ — La tua esperienza include il lavoro in un laboratorio medico. Puoi produrre d3 cartucce curative Nanotech iniettabili al giorno (d8 PF). Le cariche perdono efficacia dopo 24 ore."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 4,
+          "armatura_dado": null,
+          "salta_t2": false,
+          "salta_t3": false,
+          "tributi": [{ "tipo": "criptato", "count": 1 }],
+          "extra": []
+        }
+      },
+      {
+        "id": "il-devoto",
+        "nome": "Il Devoto",
+        "descrizione": "Hai più di una fede cieca; sei un Discepolo veramente devoto di Fatuma. Hai studiato le Scritture e viaggiato fino al Mausoleo di LORO, versando il tuo sangue sull'Altare della Convergenza. Nonostante molti attorno a te temano il Grimm, stai facendo tutto il possibile per inaugurare il regno di LORO!",
+        "note_speciali": [],
+        "hp": { "dado": 4, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 4, "moltiplicatore": 10 },
+        "favori": { "dado": 4 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "pre": { "dadi": 3, "facce": 6, "bonus":  1, "label": "Fedele" },
+          "for": { "dadi": 3, "facce": 6, "bonus": -1, "label": "Debole" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "DISCEPOLO INCROLLABILE",
+            "voci": [
+              "Il Grimm è arrivato sul tuo pianeta, ti ha guardato negli occhi, e ha infettato qualcun altro.",
+              "Ti sei risvegliato/a sull'Altare della Convergenza, con i polsi tagliati ma ancora vivo/a, per trovare un Mastino da Güerra che leccava il tuo sangue.",
+              "Raggiunta la maggiore età, hai lasciato la tua colonia religiosa per diffondere la parola beatifica di LORO.",
+              "Dopo aver visto il tuo amante decimato dal Grimm, si è risvegliata in te una fame atavica.",
+              "Hai camminato sulla superficie delle Lune dei Morti e nessun essere vivo o non-morto ha incrociato il tuo cammino. È stato strano ma in un certo senso pacifico.",
+              "Le tue ossa dolgono e suoni ronzanti ti riempiono le orecchie ogni volta che i Grimm sono vicini. È come se quelle atrocità volessero farti sapere dove si trovano LORO."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ",
+            "voci": [
+              "PAGINA STRAPPATA DAL LIBRO DI FATUMA — Hai una pagina strappata da questo antico testo. Quando la leggi, qualsiasi Grimm a portata di voce obbedirà ai tuoi ordini per d4 round prima di morire. La pagina può essere letta solo una volta al giorno.",
+              "OMERO DEI SEI — Impugni uno dei marci omeri dei Sei. Sembra vibrare costantemente per via dei parassiti che hanno fatto di questo osso la loro casa. Oltre a infliggere d4 danni come arma in mischia, c'è 1 probabilità su 8 che i bersagli colpiti vengano infettati da un würm.",
+              "TERRA DEL MAUSOLEO — Nel tuo pellegrinaggio al Mausoleo di LORO, hai raccolto un sacco pieno di terra. Quando sparsa in aria, volerà verso eventuali crepe nascoste.",
+              "ARMATURA DELL'ALTARE — Come Discepolo di Fatuma, ti è stata donata una tuta in seta di Würm Intestinale da indossare sotto i vestiti o l'armatura. Quando la indossi, ottieni un'ulteriore riduzione ai danni di -2.",
+              "SIMBOLO DI LORO — Quando presenti questo simbolo blasfemo di ferro arrugginito e butterato al Grimm, il suo morale raddoppia per d6 round.",
+              "DENTE DEL WÜRM — Al collo porti un dente estratto da uno dei grandi würms. Se lo baci prima della battaglia, c'è 1 probabilità su 6 di colpire automaticamente sul tuo primo attacco e infliggere danni doppi."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 4,
+          "armatura_dado": 2,
+          "salta_t2": true,
+          "salta_t3": false,
+          "tributi": [],
+          "extra": [
+            "2x Würm casuali criogenizzati"
+          ]
+        }
+      },
+      {
+        "id": "lo-spazzino",
+        "nome": "Lo Spazzino",
+        "descrizione": "Hai sempre amato sporcarti e scavare nella sporcizia altrui. Coloro che si sono schierati con il Grimm offrono magnifiche ricompense a quelli così coraggiosi da raccogliere i würm dai corpi dei caduti. Hai condotto una vita agiata per un certo numero di anni solo facendo questo, e sei dannatamente bravo a farlo.",
+        "note_speciali": [],
+        "hp": { "dado": 6, "statBonus": "ten" },
+        "crediti": { "dadi": 1, "facce": 8, "moltiplicatore": 10 },
+        "favori": { "dado": 2 },
+        "neuromanzia": null,
+        "statistiche_speciali": {
+          "for": { "dadi": 3, "facce": 6, "bonus": -1, "label": "Magro" },
+          "pre": { "dadi": 3, "facce": 6, "bonus":  2, "label": "Intraprendente" }
+        },
+        "attacco_classe": null,
+        "tabelle_classe": [
+          {
+            "titolo": "MANGIA-RIFIUTI",
+            "voci": [
+              "Ti sei svegliato/a sotto un mucchio di tuoi compagni Legionari, tutti massacrati dal Grimm. Per qualche ragione, LORO ti hanno lasciato in vita. Perché?",
+              "Da bambino/a, hai trovato un würm solitario e lo hai nutrito con pezzi del tuo cucciolo. È diventato il tuo migliore amico finché i tuoi genitori non ti hanno costretto a gettarlo nell'inceneritore locale.",
+              "Hai vissuto sulle Chiatte dei Rifiuti di Khallar finché Re Saule non ti ha sorpreso a sottrarre i suoi tesori. Sei stato/a esiliato/a dai rifiuti che chiamavi casa.",
+              "Il Grimm è arrivato sul tuo asteroide. Hai riso guardando crollare la gerarchia e i ricchi oppressori incontrare la loro fine. Il Grimm ha riso con te.",
+              "Sei nato/a su un'astronave nel Vuoto Amaro da una madre infettata dal Grimm da molto tempo. Poiché non se ne fanno nulla di abitare in un neonato, sei riuscito/a a sopravvivere crescendo in mezzo ai Grimm. Sussurri loro dolci parole, e sembrano capire.",
+              "Ti sei imbarcato/a clandestinamente sulle astronavi per vedere quanto più 'verso possibile. Sei fuggito/a su un piccolo asteroide dopo che l'intero equipaggio è stato massacrato dal Grimm."
+            ]
+          },
+          {
+            "titolo": "KAPACITÀ",
+            "voci": [
+              "OCCHIO PER I TESORI — I tuoi occhi cadono naturalmente su qualsiasi cosa di valore. Ottieni +2 per notare oggetti di valore semplicemente scansionando uno spazio. Se cerchi attivamente oggetti di valore, ottieni +4.",
+              "FAMIGLIA GRIMM — I Grimm percepiscono che c'è qualcosa in te che non vogliono infettare. Quando tiri per vedere se sei infettato/a da un Parassita Grimm, se risulti infettato/a al primo tiro, ritira.",
+              "STRUMENTI DI ESTRAZIONE — Arrugginiti e intaccati ma ancora incredibilmente affilati, questi strumenti sono il tuo portafortuna quando dissezioni cadaveri per recuperare würms. Ottieni +2 ogni volta che usi questi strumenti in una situazione chirurgica.",
+              "WÜRM DOMESTICO — Uno dei würm che hai raccolto si è affezionato a te ed è un animale leale. È grande quanto un chihuahua paffuto. Attacca con CD12 (morso d6), Punti Grimm 1-2 su d6 per ogni attacco riuscito. Difende con CD14, 8 PF.",
+              "FIALE DI BILE — Raccogliendo würms hai trovato il modo di estrarre la bile inserendo una cannuccia nelle loro bocche e sorbendo delicatamente il contenuto del loro stomaco. Ti piace il modo in cui ti fa formicolare le labbra prima di sputarla in una delle tue sudicie fiale. Inizi con 2d12 fiale che possono essere lanciate (d6 danni) o usate per rivestire un'arma o un proiettile (d4 danni aggiuntivi). Puoi riempire d2 fiale con una prova di Agilità CD12 se hai un würm vivo o deceduto di recente.",
+              "VALORE DELLA RETE — Hai raccolto le sacche di muta di un centinaio di würms durante la loro crescita. Questi trofei sono stati poi cuciti insieme dalle tue mani con peli strappati ai Grimm. Finemente invecchiata, questa rete naturalmente appiccicosa è perfetta per intrappolare la preda. Quando lanciata (fino a 9 metri), cattura qualsiasi creatura in un'area di 3 metri da dove atterra con una prova di Presenza CD12."
+            ]
+          }
+        ],
+        "equipaggiamento_override": {
+          "armi_dado": 4,
+          "armatura_dado": 2,
+          "salta_t2": true,
+          "salta_t3": true,
+          "tributi": [{ "tipo": "casuale", "count": 1 }],
+          "extra": [
+            "1x Würm casuale criogenizzato"
+          ]
+        }
+      }
+  
+    ],
+    "equipaggiamento_t1": [
+      "Bendaggio sporco e dal pessimo odore.",
+      "Moneta di una società ormai decaduta.",
+      "Marsupio — può contenere 3 oggetti di taglia piccola.",
+      "Zaino spaziale — può contenere 6 oggetti di taglia media.",
+      "Baule mobile — può contenere 12 oggetti di taglia media.",
+      "Carrello antigravitazionale — può trasportare 18 oggetti di taglia media. (A volte va alla deriva)"
+    ],
+    "equipaggiamento_t2": [
+      "Torcia laser (4 cariche/uso). Taglia attraverso 30 cm di metallo o 12 cm di metallo resistente, CD12.",
+      "Luce da casco (1 carica/uso).",
+      "Tagliavetro. Taglia vetro e plexiglass non più spesso di mezzo centimetro, CD10.",
+      "7,5 m di corda sintetica.",
+      "Medikit (Presenza +d6 usi, ferma l'emorragia, guarisce d4 PF).",
+      "Decrittatore Passepartout. +4 per decrittare serrature e boccaporti.",
+      "Scatoletta BUM. Un piccolo congegno che sembra una radio. Può essere impostato per detonare infliggendo d12 danni.",
+      "1 Tributo Hackerato.",
+      "Multiattrezzo con portastrumenti di cuoio.",
+      "Collana con ciondolo di würm mummificato.",
+      "1 Tributo Criptato.",
+      "Pozione lisergica (d4 dosi). Causa allucinazioni per d8 ore."
+    ],
+    "equipaggiamento_t3": [
+      "Collezione di cartoline di pianeti turistici — non ne hai visitato nessuno e la maggior parte non esistono più.",
+      "Cassa di razioni liofilizzate (per 22 giorni).",
+      "Coltello laser (3 cariche/uso, d4 danni).",
+      "Fragole fresche, valore totale 50 crediti — marciscono in d6 giorni.",
+      "Tributo Criptato casuale.",
+      "Martello fosforescente.",
+      "Fluido cortocircuitatore anti-bot, d2 dosi. Effetto su creazioni meccaniche CD14, d12 danni.",
+      "Asteroditore ferale. Obbedisce al tuo fischio. Consuma una razione al giorno (d4+4 PF, morso d4).",
+      "Pistola da segnalazione con 2 bengala: uno bianco, uno blu.",
+      "Tamburello in buone condizioni.",
+      "Elettroscudo. Funziona come batteria per caricare altri oggetti (assorbe 1 PF di danno da attacco energetico, fino a 10 danni; ogni PF salvato = 2 cariche).",
+      "Fotografia ripiegata di uno dei tuoi compagni di LEGIONE."
+    ],
+    "armi": [
+      "Sfollagente in legno (d4) — 1 CRE",
+      "Coltello militare con fodero (d4) — 3 CRE",
+      "Ossi da Lancio (d4, portata: Presenza +10, munizioni: ossi/stelle da lancio affilati) — 4 CRE",
+      "Randello gommato dei Legionari (d6). Rompe ossa con CRIT — 7 CRE",
+      "Chiave a cricchetto (d4) — 2 CRE",
+      "Coso Boom Inastato: shotgun (d8) su una punta, lama (d4) sull'altra. Dopo 1 colpo ricaricare (10 colpi, munizioni non comuni) — 10 CRE (2 colpi/1 CRE)",
+      "Blaster (d6, 4 cariche/uso) — 15 CRE",
+      "Pistola semiautomatica. Spara 2 proiettili a un singolo bersaglio (d6+2 per proiettile) ogni round. 18 proiettili inclusi, difficili da trovare — 30 CRE (2 proiettili/1 CRE)",
+      "Fucile a Impulsi (d8, 6 cariche/uso) — 20 CRE",
+      "Spada a energia (d10, 4 cariche/colpo) — 22 CRE"
+    ],
+    "armature": [
+      "Nessuna armatura",
+      "Giacca di Pelle / Fibra di Carbonio rinforzata (riduce d2 danni) — 5 CRE",
+      "Armatura delle forze di sicurezza in Fibra di Carbonio con placche rinforzate (riduce d4 danni, -2 prove di Agilità e Difesa) — 42 CRE",
+      "Armatura Meccanizzata militare (riduce d6 danni, -4 prove di Agilità, -2 prove di Difesa) — 80 CRE",
+      "Casco Antisommossa (riduce 1 danno aggiuntivo oppure ignora tutti i danni e viene distrutto; non indossabile con Armatura Meccanizzata) — 12 CRE"
+    ],
+    "tributi_regola": "Spendi 1 Favore per usare il Tributo (CD12 Presenza). Se ha successo, il Tributo si attiva. Se fallisce, perdi 2 PF e sei disorientato e stordito per la prossima ora.",
+    "tributi_criptati": [
+      { "nome": "Lode ai Nanotech",        "effetto": "Un PG a tua scelta recupera d12 PF." },
+      { "nome": "Swürminatura",            "effetto": "Una creatura a tua scelta espelle il würm che ha dentro." },
+      { "nome": "Mente Alveare",           "effetto": "Parla con un Grimm e faigli domande. Per 3 round risponderà sinceramente, dopodiché il würm dentro di lui esploderà." },
+      { "nome": "La Forza di Mille Würm!", "effetto": "Una creatura a tua scelta aumenta la propria Forza di +2 finché non dorme." },
+      { "nome": "Respiro Marcescente",     "effetto": "Una creatura deceduta da non più di 3 giorni viene riportata in vita. La sua Presenza è ridotta di -2 (minimo -3)." },
+      { "nome": "Tetro Mietitore",         "effetto": "Tutti i Grimm a portata di voce seguono i tuoi comandi per d6 round." },
+      { "nome": "Buio Infinito",           "effetto": "La luce, naturale o artificiale, si estingue in un raggio di 18 metri per d8 round. L'oscurità segue il tuo Tributo." },
+      { "nome": "Creatura Calmante",       "effetto": "d6 creature subiscono -4 Morale quando questo Tributo viene attivato." },
+      { "nome": "Ascia Elettrica",         "effetto": "Un'enorme ascia di luce laser fuoriesce dal tuo braccio per 2d6 round. Infligge d12 danni. Variazioni: Mazzafrusto Elettrico, Mannaia, Martello o Artiglio." },
+      { "nome": "Teletrasporto",           "effetto": "d2 creature si smaterializzano e vengono teletrasportate in un luogo casuale (tira d8)." }
+    ],
+    "tributi_hackerati": [
+      { "nome": "Detonatore Elettromagnetico", "effetto": "d8 danni a qualsiasi equipaggiamento elettrico funzionante in un raggio di 9 metri." },
+      { "nome": "Vendetta di Fatuma",      "effetto": "Una creatura continua a cambiare forma per adattarsi alle creature nelle vicinanze per d10 round." },
+      { "nome": "Messo Nello Spazio",      "effetto": "Una creatura casuale entro 9 metri dal Tributo perde l'aria attorno a sé per d6 round, subendo d4 danni ogni round." },
+      { "nome": "Radiofaro",               "effetto": "Funziona come un segnalatore: tutti gli altri Tributi entro 1 astrosec si illuminano per d4 giorni." },
+      { "nome": "Svegliarsi!",             "effetto": "Tutti i Grimm dormienti in un raggio di 30 metri si attivano." },
+      { "nome": "Oscurità Eterna",         "effetto": "Tutte le creature in un raggio di 13,5 metri perdono 3d6 PF." },
+      { "nome": "Elettroshock",            "effetto": "Il Tributo spara d4 dardi elettrici che infliggono d4 danni ciascuno." },
+      { "nome": "Sovraccarico",            "effetto": "Un'arma elettronica ottiene d4 danni aggiuntivi per d2 round." },
+      { "nome": "Grimm Fan Club",          "effetto": "Evoca d4 Grimm." },
+      { "nome": "Gravità Zero",            "effetto": "Quando attivato in una stanza non più grande di 90 m², la gravità smette di funzionare per d10 round." }
+    ],
+    "wurm": [
+  { "id": "carnizio",  "nome": "Il Carnizio",  "tipo": "Würm della Carne"   },
+  { "id": "cruore",    "nome": "Il Cruore",    "tipo": "Würm del Sangue"    },
+  { "id": "neurico",   "nome": "Il Neurico",   "tipo": "Würm del Cervello"  },
+  { "id": "ramethus",  "nome": "Il Ramethus",  "tipo": "Würm del Cuore"     },
+  { "id": "marcio",    "nome": "Il Marcio",    "tipo": "Würm delle Viscere" },
+  { "id": "terga",     "nome": "Il Terga",     "tipo": "Würm del Midollo"   }
+]
+  },
+  "mork-borg": {
+    "nomi": [
+      "Grask il Tremante", "Mura Cenere", "Brul il Putrido",
+      "Yelka Ossa", "Dorrn il Silenzioso", "Sana Piaga",
+      "Orm il Vecchio", "Bera Notte", "Grul il Dimenticato",
+      "Thera Polvere", "Vrak il Vuoto", "Meld il Maledetto"
+    ],
+    "classi": [
+      "Maledetto — sei segnato dalla profezia, gli altri lo sentono",
+      "Sacerdote Scilinguagnato — i tuoi incantesimi non sempre funzionano come vorresti",
+      "Guerriero Grottesco — vivi per il combattimento e per il sangue",
+      "Ladruncolo Miserevole — sopravvivi con l'inganno e la fuga",
+      "Stregone Putrefatto — la magia ti consuma lentamente",
+      "Nessuna classe — solo un sopravvissuto senza nome né storia"
+    ],
+    "tratti_fisici": [
+      "Corpo ricoperto di croste e piaghe infette",
+      "Occhi di colore diverso, uno cieco dalla nascita",
+      "Dita troppo lunghe, quasi artigli",
+      "Pelle giallastra come pergamena vecchia",
+      "Nessun capello, cranio pieno di cicatrici",
+      "Denti neri e marci ma ancora forti",
+      "Troppo alto e sottile per sembrare umano",
+      "Troppo basso e largo, muscoli come nodi",
+      "Ustioni su metà del viso",
+      "Zoppo dalla nascita ma sorprendentemente veloce"
+    ],
+    "tratti_personalita": [
+      "Aspettati il peggio — sei raramente deluso",
+      "Ami l'oro più della tua stessa vita",
+      "Parli con oggetti inanimati come se rispondessero",
+      "Temi il buio più di qualsiasi nemico",
+      "Non dormi mai più di un'ora di fila",
+      "Mangi qualsiasi cosa tu possa masticare",
+      "Credi che domani sia la fine del mondo — probabilmente hai ragione"
+    ],
+    "equipaggiamento": [
+      "Spada arrugginita (d6 danni)",
+      "Ascia da boscaiolo (d6 danni)",
+      "Coltello da caccia (d4 danni)",
+      "Arco con 10 frecce (d6 danni)",
+      "Scudo di legno marcio (+1 armatura)",
+      "Torcia (3 ore di luce)",
+      "Corda (10m)",
+      "Kit da guarigione (2 usi, recupera d4 PF)",
+      "Borsa di riso secco (3 giorni di cibo)",
+      "Grimorio strappato (d4 incantesimi illeggibili)",
+      "Pozione di guarigione dubbia (recupera d6 PF o peggiora)",
+      "Lanterna e olio (6 ore di luce)"
+    ],
+    "presagio": [
+      "La settima testa del basilisco è già nata nel bosco a nord",
+      "Il sole tramonta a est da tre giorni consecutivi",
+      "I morti camminano verso la capitale senza sosta",
+      "La luna è sparita per due notti senza spiegazione",
+      "Ogni pozzo della regione è avvelenato da una sostanza sconosciuta",
+      "I bambini non nascono più urlando — nascono in silenzio"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "character-sheet-generator",
+    "version": "1.0.0",
+    "description": "Generatore di schede personaggio per GdR OSR/Borg in italiano",
+    "scripts": {
+      "start": "npx serve src"
+    },
+    "devDependencies": {
+      "serve": "^14.0.0"
+    }
+  }

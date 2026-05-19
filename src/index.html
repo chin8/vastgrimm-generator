@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vast Grimm — Generatore Schede</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sheet.css">
+</head>
+<body>
+    <div id="app">
+        <header id="app-header">
+            <div>
+                <h1>⬡ Vast Grimm</h1>
+                <p class="subtitle">Generatore Schede Personaggio</p>
+            </div>
+            <div id="header-controls">
+                <div id="font-controls">
+                    <button id="btn-font-down" class="btn-icon" title="Riduci testo">A−</button>
+                    <button id="btn-font-up"   class="btn-icon" title="Aumenta testo">A+</button>
+                </div>
+                <button id="btn-theme">☀️ Light</button>
+            </div>
+        </header>
+        <main id="app-main">
+            <div id="action-bar">
+                <button id="btn-rigenera" class="btn btn-primary">🎲 Nuovo Personaggio</button>
+                <button id="btn-stampa"   class="btn btn-secondary">🖨️ Stampa / PDF</button>
+            </div>
+            <div id="sheet-container"></div>
+        </main>
+
+        <footer id="app-footer">
+            <p>Vast Grimm è una produzione indipendente di Creature Curation e non è affiliata a Ockult Örtmästare Games o Stockholm Kartell. È pubblicato sotto la MÖRK BORG Third Party License.<br>
+            MÖRK BORG è copyright di Ockult Örtmästare Games e Stockholm Kartell.<br>
+            La versione italiana è a cura di <strong>Mana Project Studio</strong>.</p>
+            <p>Scopri di più su <a href="https://grimmexpanse.com" target="_blank" rel="noopener noreferrer">grimmexpanse.com</a> &nbsp;||&nbsp; Web app di <strong>chin8</strong> per <strong>Botega Repezi</strong></p>
+        </footer>
+    </div>
+
+    <!-- MODAL CONFERMA -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal-box">
+            <div class="modal-title">⚠ ATTENZIONE</div>
+            <div class="modal-body">Vuoi davvero generare un nuovo personaggio?<br>I dati attuali andranno perduti nel Vuoto.</div>
+            <div class="modal-actions">
+                <button id="modal-confirm" class="btn btn-primary">🎲 Sì, rigenera</button>
+                <button id="modal-cancel"  class="btn btn-secondary">✕ Annulla</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
